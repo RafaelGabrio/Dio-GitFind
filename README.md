@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+[LICENSE__BADGE]: https://img.shields.io/github/license/Fernanda-Kipper/Readme-Templates?style=for-the-badge
+[REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
+[JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
+[NODE_BADGE]: https://img.shields.io/badge/node.js-20.16.0-43853D?style=for-the-badge&logo=node.js
+[PRS_BADGE]: https://img.shields.io/badge/PRs-welcome-green?style=for-the-badge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center" style="font-weight: bold;">GitFind 💻</h1>
 
-## Available Scripts
+![license][LICENSE__BADGE]
+![react][REACT__BADGE]
+![javascript][JAVASCRIPT__BADGE]
+![node][NODE_BADGE]
+![prs][PRS_BADGE]
 
-In the project directory, you can run:
+<details open="open">
+<summary>Table of Contents</summary>
 
-### `npm start`
+- [📌 About](#about)
+- [🚀 Getting started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Cloning](#cloning)
+  - [Starting](#starting)
+- [📍 Application Routes](#routes)
+- [🤝 Collaborators](#collaborators)
+- [📫 Contribute](#contribute)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</details>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2 id="about">📌 About</h2>
 
-### `npm test`
+GitFind is a React application developed as part of the Formação React Developer at DIO. The project allows users to search for GitHub profiles and view key information such as the profile name, login, biography, avatar, and a list of repositories.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2 id="getting-started">🚀 Getting started</h2>
 
-### `npm run build`
+Follow the steps below to run the project locally.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>Prerequisites</h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Make sure you have the following tools installed:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
 
-### `npm run eject`
+<h3>Cloning</h3>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/RafaelGabrio/gitfind.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<h3>Starting</h3>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install the dependencies and start the application:
 
-## Learn More
+```bash
+cd gitfind
+npm install
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The app will be available at http://localhost:3000.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2 id="routes">📍 Application Routes</h2>
 
-### Code Splitting
+| Route        | Description                                          |
+| ------------ | ---------------------------------------------------- |
+| <kbd>/</kbd> | Home page where users can search for GitHub profiles |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<h2 id="collaborators">🤝 Collaborators</h2>
 
-### Analyzing the Bundle Size
+Special thanks to everyone who contributed to this project and to the DIO community for the learning experience.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- DIO
+- React Developer training community
+- Open-source contributors
 
-### Making a Progressive Web App
+<h2 id="contribute">📫 Contribute</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are welcome. If you would like to improve this project, please follow the steps below:
 
-### Advanced Configuration
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/RafaelGabrio/gitfind.git
+   ```
+2. Create a new branch for your feature or fix:
+   ```bash
+   git checkout -b feature/your-name
+   ```
+3. Make your changes and follow the project's coding patterns.
+4. Commit your changes clearly and objectively:
+   ```bash
+   git add .
+   git commit -m "Add your feature or fix"
+   ```
+5. Open a Pull Request explaining the problem solved or the feature added, and include screenshots if there are visual changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you want, you can also check the project's issues and contribute to improvements or bug fixes.

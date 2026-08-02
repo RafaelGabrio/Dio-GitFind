@@ -25,7 +25,9 @@
 - [📫 Contribute](#contribute)
 
 </details>
-
+<p align="center">
+    <img src="https://i.imgur.com/RrAMTuy.png" alt="Print da tela inicial da aplicação" width="600px">
+</p>
 <h2 id="about">📌 About</h2>
 
 GitFind is a React application developed as part of the Formação React Developer at DIO. The project allows users to search for GitHub profiles and view key information such as the profile name, login, biography, avatar, and a list of repositories.
